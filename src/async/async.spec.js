@@ -1,5 +1,5 @@
 const Ajax = require('./async')
-const axios = require('./async')
+const axios = require('axios')
 
 jest.mock('axios') // мокаем модуль аксиос
 
